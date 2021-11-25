@@ -273,6 +273,7 @@
    
    var iframeElem = document.getElementById('receiver');
    document.getElementById('chatOverlayInputSubmit').addEventListener('click', function () {
+     console.log('Sending javascript event');
     iframeElem.contentWindow.postMessage({
       'actionType': 'ameliaSay',
       'actionData': 'Hi there'
