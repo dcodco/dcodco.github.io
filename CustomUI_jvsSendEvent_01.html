@@ -303,7 +303,7 @@
   });
    
    window.onbeforeunload = function () {
-     endConversation();
+     // endConversation(); // Commenting this line to avoid closing conversation when trying to close tab, but cancelling on confirmation prompt.
      // return null; // No prompt
      return ''; // Yes with prompt
    }
