@@ -265,7 +265,8 @@
    
    window.addEventListener('message', receiveMessage);
    
-   var postMessageURL = 'https://eu.amelia.com/Amelia/ui/ameliaTestCustom/';
+   var postMessageURL = 'https://bnp.dev.amelia.com/Amelia/ui/custom/'; 
+//   var postMessageURL = 'https://eu.amelia.com/Amelia/ui/ameliaTestCustom/';
 //   var postMessageURL = 'https://bnp-v4.dev.amelia.com/Amelia/ui/centricpoc/20/';
    
 //   var postMessageURL = 'https://staffmark.dev.amelia.com/Amelia/chat';
@@ -314,7 +315,8 @@
   function init () {
     console.log('i should be in here once');
 
-    document.getElementById('receiver').src = 'https://eu.amelia.com/Amelia/ui/ameliaTestCustom/chat?embed=iframe&domainCode=damien';    
+    document.getElementById('receiver').src = 'https://bnp.dev.amelia.com/Amelia/ui/custom/chat?domainCode=centric_ipsoft_dev';   
+//    document.getElementById('receiver').src = 'https://eu.amelia.com/Amelia/ui/ameliaTestCustom/chat?embed=iframe&domainCode=damien';    
 //    document.getElementById('receiver').src = 'https://bnp-v4.dev.amelia.com/Amelia/ui/centricpoc/20/chat?embed=iframe&domainCode=centric_ipsoft_dev';
 //    document.getElementById('receiver').src = 'https://staffmark.dev.amelia.com/Amelia/';
 //         document.getElementById('receiver').src = 'https://ameliav4.dev.amelia.com/Amelia/ui/raul/?domainCode=gateway_test&embed=iframe';
