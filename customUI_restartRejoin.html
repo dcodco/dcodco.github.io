@@ -283,15 +283,13 @@
    
    var endConversation = function () {
      iframeElem.contentWindow.postMessage({
-      'actionType': 'endConversation',
-      'actionData': true
+      'actionType': 'endConversation'
     }, postMessageURL);
    };
    
    var resetConversation = function () {
      iframeElem.contentWindow.postMessage({
-      'actionType': 'resetConversation',
-      'actionData': true
+      'actionType': 'resetConversation'
     }, postMessageURL);
    };
    
